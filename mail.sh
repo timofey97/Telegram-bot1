@@ -1,0 +1,1 @@
+sendemail -f $4 -t $1 -u $5 -m $6 -s smtp.gmail.com:587 -xu $2 -xp $3 -o message-charset=UTF-8 -o tls=yes
